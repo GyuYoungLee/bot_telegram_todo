@@ -1,0 +1,24 @@
+{
+  "name": "bot_tg_toto",
+  "version": "1.0.0",
+  "description": "Todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveuns/bot_tg_toto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loveuns/bot_tg_toto/issues"
+  },
+  "homepage": "https://github.com/loveuns/bot_tg_toto#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "telegram-node-bot": "^4.0.5"
+  }
+}
