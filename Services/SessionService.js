@@ -1,10 +1,9 @@
-const Util = require('../Utils/Util')
+const { Util } = require('../Utils/Util')
 
 module.exports = class SessionService {
     listHandler($) {
         $.getUserSession('todos')
             .then(todos => {
-                // $.sendMessage(this.parseTodos(todos), { parse_mode: 'Markdown'})
                 $.sendMessage(Util.parseTodos(todos), { parse_mode: 'Markdown'})
                 console.log(`SessionService.listHandler - todos: ${JSON.stringify(todos)}`)
             })

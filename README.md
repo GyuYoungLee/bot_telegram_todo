@@ -24,10 +24,13 @@
 
 ### Reference
 
-- Telegram Bot API  : https://core.telegram.org/bots/api
-- Telegram-node-bot : https://github.com/naltox/telegram-node-bot 
+- Telegram Bot API    : https://core.telegram.org/bots/api
+- Telegram-node-bot   : https://github.com/naltox/telegram-node-bot
+- Firebase-admin-node : https://github.com/firebase/firebase-admin-node
 
 ### Commit history
 
 - 내부 변수에 데이타 저장 : git checkout da8a0bf
-- 세션에 데이타 저장      : git checkout
+- 세션에 데이타 저장      : git checkout ace28ba
+- DB에 데이타 저장        : 
+

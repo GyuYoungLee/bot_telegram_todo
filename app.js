@@ -12,5 +12,3 @@ tgBot.router
     .when(new TelegramBot.TextCommand('add',    'addCommand'),  todoController)
     .when(new TelegramBot.TextCommand('done',   'doneCommand'), todoController)
     .otherwise(otherController)
-
-

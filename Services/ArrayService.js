@@ -1,4 +1,4 @@
-const Util = require('../Utils/Util')
+const { Util } = require('../Utils/Util')
 
 // 1. 내부 변수에 데이타 저장
 const todos = []

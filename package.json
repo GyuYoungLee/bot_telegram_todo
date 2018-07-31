@@ -19,6 +19,7 @@
   "homepage": "https://github.com/loveuns/bot_tg_toto#readme",
   "dependencies": {
     "dotenv": "^6.0.0",
+    "firebase-admin": "^5.13.1",
     "telegram-node-bot": "^4.0.5"
   }
 }

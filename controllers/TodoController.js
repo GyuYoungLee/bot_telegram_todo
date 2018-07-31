@@ -1,8 +1,10 @@
 const TelegramBot       = require('telegram-node-bot')
 const ArrayService      = require('../Services/ArrayService')
 const SessionService    = require('../Services/SessionService')
+const FirebaseService    = require('../Services/FirebaseService')
 const arrayService      = new ArrayService()
 const sessionService    = new SessionService()
+const firebaseService   = new FirebaseService()
 
 module.exports = class TodoController extends TelegramBot.TelegramBaseController {
 
@@ -13,7 +15,10 @@ module.exports = class TodoController extends TelegramBot.TelegramBaseController
         // arrayService.listHandler($)
 
         // 2. 세션에 데이타 저장
-        sessionService.listHandler($)
+        // sessionService.listHandler($)
+
+        // 3. 파이어베이스에 데이타 저장
+        firebaseService.listHandler($)        
     }
 
 
@@ -27,7 +32,10 @@ module.exports = class TodoController extends TelegramBot.TelegramBaseController
         // arrayService.addHandler($, todo)
 
         // 2. 세션에 데이타 저장
-        sessionService.addHandler($, todo)   
+        // sessionService.addHandler($, todo) 
+        
+        // 3. 파이어베이스에 데이타 저장
+        firebaseService.addHandler($, todo)         
     }
 
 
@@ -41,7 +49,10 @@ module.exports = class TodoController extends TelegramBot.TelegramBaseController
         // arrayService.doneHandler($, index)
 
         // 2. 세션에 데이타 저장
-        sessionService.doneHandler($, index)
+        // sessionService.doneHandler($, index)
+
+        // 3. 파이어베이스에 데이타 저장
+        firebaseService.doneHandler($, index)         
     }
 
     get routes() {
