@@ -6,13 +6,15 @@
 2. Node.js 로 구현 
 3. 빌드는 AWS EC2 에 배포
 4. 데이타는 Firebase firestore에 저장
-5. 봇 사용법 
-   - URL : t.me/toto_todo_bot
-   - 사용법
-     - list
-     - add <할일>
-     - done <목록번호>
-     - ![이미지](./etc/20180730_211201.jpg)
+
+
+### 봇 사용법 
+- URL : http://t.me/toto_todo_bot
+- 사용법
+  - list
+  - add <할일>
+  - done <목록번호>
+- ![이미지](./etc/20180730_211201.jpg)
 
 ### Tech
 
@@ -25,6 +27,7 @@
 - Telegram Bot API  : https://core.telegram.org/bots/api
 - Telegram-node-bot : https://github.com/naltox/telegram-node-bot 
 
-### Commit desc
+### Commit history
 
-- 내부 변수에 데이타 저장 : git checkout 23db4fa
+- 내부 변수에 데이타 저장 : git checkout da8a0bf
+- 세션에 데이타 저장      : git checkout
