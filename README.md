@@ -19,6 +19,8 @@
 ### Tech
 
 - Node.js
+  - npm i --save telegram-node-bot
+  - npm i --save firebase-admin
 - 플랫폼 : Telegram Bot API
 - 인프라 : AWS, Firebase 
 
@@ -30,7 +32,6 @@
 
 ### Commit history
 
-- 내부 변수에 데이타 저장 : git checkout da8a0bf
-- 세션에 데이타 저장      : git checkout ace28ba
-- DB에 데이타 저장        : 
-
+- 내부 변수에 데이타 저장 : git checkout 61e8843
+- 세션에 데이타 저장      : git checkout c7870c2
+- DB에 데이타 저장        : git checkout dd02872

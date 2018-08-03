@@ -7,9 +7,9 @@ class Util {
         let msg = '* 할일 목록 * \n'
         let desc 
         todos.forEach((todo, i) => {
-            firebaseIdTable[i] = todo.id
+            firebaseIdTable[i+1] = todo.id
             desc = todo.desc || todo
-            msg += `* ${i} * - ${desc}\n`
+            msg += `* ${i+1} * - ${desc}\n`
         })
         return msg
     }

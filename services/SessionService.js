@@ -1,4 +1,4 @@
-const { Util } = require('../Utils/Util')
+const { Util } = require('../utils/Util')
 
 module.exports = class SessionService {
     listHandler($) {

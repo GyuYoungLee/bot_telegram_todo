@@ -1,5 +1,5 @@
 const CloudStorage              = require('../db/Cloudstorage')
-const { Util, firebaseIdTable } = require('../Utils/Util')
+const { Util, firebaseIdTable } = require('../utils/Util')
 
 module.exports = class FirebaseService {
     listHandler($) {
